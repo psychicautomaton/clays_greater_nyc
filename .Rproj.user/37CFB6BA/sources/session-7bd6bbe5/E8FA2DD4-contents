@@ -1,0 +1,111 @@
+---
+title: "clays_data"
+output: html_document
+---
+
+
+```{r libs_config}
+library(sys)
+Sys.setenv(R_SSURGOPORTAL_USE_VIRTUALENV = FALSE)
+Sys.getenv("R_SSURGOPORTAL_USE_VIRTUALENV")
+library(SSURGOPortal)
+library(tidyverse)
+library(reticulate)
+use_python("/Users/mxdwivedi/.pyenv/versions/3.11.12/bin/python",
+           required = TRUE)
+py_config()
+library(soilDB)
+library(sf)
+```
+
+```{r}
+ssurgo_portal("getstatus")
+```
+
+```{r}
+ssurgo_portal("copytemplate", 
+              templatename = "GeoPackage", 
+              folder = "db_gpkg", 
+              filename = "clays", 
+              overwrite = TRUE)
+
+```
+```{r}
+td <- file.path(tempdir(), "ssurgo_test")
+```
+
+
+```{r}
+download_ssurgo("areasymbol IN ('NJ003',
+                'NJ013',
+                'NJ027',
+                'NJ031',
+                'NJ039',
+                'NY005',
+                'NY047',
+                'NY059',
+                'NY061',
+                'NY081',
+                'NY085',
+                'NY103',
+                'NY119',
+                'CT601')",
+                exdir = td)
+```
+
+```{r}
+ssurgo_portal(
+  "pretestimportcandidates",
+  database = "db_gpkg/clays.gpkg",
+  root = td,
+  istabularonly = FALSE
+)
+
+```
+
+```{r}
+ssurgo_portal(
+  "importcandidates",
+  database = "db_gpkg/clays.gpkg",
+  root = td,
+  istabularonly = FALSE,
+  skippretest = TRUE,
+  subfolders = c('NJ003',
+                'NJ013',
+                'NJ027',
+                'NJ031',
+                'NJ039',
+                'NY005',
+                'NY047',
+                'NY059',
+                'NY061',
+                'NY081',
+                'NY085',
+                'NY103',
+                'NY119',
+                'CT601'),
+  loadinspatialorder = FALSE,
+  loadspatialdatawithinsubprocess = FALSE,
+  dissolvemupolygon = FALSE
+)
+```
+
+```{r}
+ssurgo_portal()
+```
+
+
+
+```{r}
+dbp <- "/Users/mxdwivedi/Documents/GIS/clays/db_gpkg/clays.gpkg"
+df <- ssurgo_portal("getfoldertree",
+              path="/Users/mxdwivedi/Documents/GIS/clays/db_gpkg",
+              folderpattern = "clays",
+              filepattern = ".gpkg",
+              ignorefoldercase = TRUE,
+              ignorefilecase = TRUE,
+              showfiles = FALSE,
+              maxdepth = 3)
+```
+
+

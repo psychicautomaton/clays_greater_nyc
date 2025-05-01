@@ -1,0 +1,4 @@
+"0","pal <- colorNumeric("
+"0","  palette = ""magma"","
+"0","  domain = df$Clay_DCD_AL,"
+"0","  reverse = TRUE)"

@@ -1,0 +1,12 @@
+"0","library(sys)"
+"0","Sys.setenv(R_SSURGOPORTAL_USE_VIRTUALENV = FALSE)"
+"0","Sys.getenv(""R_SSURGOPORTAL_USE_VIRTUALENV"")"
+"1","[1]"
+"1"," ""FALSE"""
+"1","
+"
+"0","library(SSURGOPortal)"
+"2","SSURGOPortal R Interface v0.0.6
+	Python: /usr/local/bin/python
+ SSURGO Portal: /Users/mxdwivedi/Library/Application Support/org.R-project.R/R/SSURGOPortal/SSURGOPortal.pyz
+"

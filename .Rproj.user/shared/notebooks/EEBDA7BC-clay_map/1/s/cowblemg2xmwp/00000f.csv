@@ -1,0 +1,28 @@
+"0","mupoly <- st_read(dbp,
+                      layer = ""mupolygon"") %>%
+  select(musym, shape, areasymbol) %>% distinct()
+"
+"1","Reading layer `"
+"1","mupolygon"
+"1","' from data source "
+"1","`"
+"1","/Users/mxdwivedi/Documents/GIS/clays/db_gpkg/clays.gpkg"
+"1","' "
+"1","using driver `"
+"1","GPKG"
+"1","'"
+"1","
+"
+"1","Simple feature collection with 227411 features and 4 fields"
+"1","
+"
+"1","Geometry type: MULTIPOLYGON
+"
+"1","Dimension:     XY
+"
+"1","Bounding box:  "
+"1","xmin: -74.88807 ymin: 40.47664 xmax: -71.73256 ymax: 42.05047"
+"1","
+"
+"1","Geodetic CRS:  WGS 84
+"

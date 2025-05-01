@@ -1,0 +1,4 @@
+- source: clay_map.qmd
+  quarto-pub:
+    - id: dca0421b-545a-4817-8f5c-81a7eb170b91
+      url: https://psychicautomaton.quarto.pub/clay_map

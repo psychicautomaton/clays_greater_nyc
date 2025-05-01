@@ -1,0 +1,1386 @@
+"0","ssurgo_portal(
+  ""importcandidates"",
+  database = ""db_gpkg/clays.gpkg"",
+  root = td,
+  istabularonly = FALSE,
+  skippretest = TRUE,
+  subfolders = c('NJ003',
+                'NJ013',
+                'NJ027',
+                'NJ031',
+                'NJ039',
+                'NY005',
+                'NY047',
+                'NY059',
+                'NY061',
+                'NY081',
+                'NY085',
+                'NY103',
+                'NY119',
+                'CT601'),
+  loadinspatialorder = FALSE,
+  loadspatialdatawithinsubprocess = FALSE,
+  dissolvemupolygon = FALSE
+)
+"
+"2","/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/osgeo/gdal.py:314: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+  warnings.warn(
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.273928442393895 40.886203863294
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.273928442393895 40.886203863294
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.273928442393895 40.886203863294
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.585457139944097 41.008325255486703
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.585457139944097 41.008325255486703
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.471223101901998 40.886560616776201
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.471223101901998 40.886560616776201
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.726433174144503 40.897447330580597
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.726433174144503 40.897447330580597
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.498455488187901 40.679319283017101
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.498455488187901 40.679319283017101
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.402977637652199 40.720372844630099
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.402977637652199 40.720372844630099
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.585457139944097 41.008325255486703
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.471223101901998 40.886560616776201
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.726433174144503 40.897447330580597
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.498455488187901 40.679319283017101
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.402977637652199 40.720372844630099
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.247384594951697 41.1224620696944
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.247384594951697 41.1224620696944
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.395522655316796 41.176842494253798
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.395522655316796 41.176842494253798
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.303301783867198 41.113491980800198
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.303301783867198 41.113491980800198
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.247384594951697 41.1224620696944
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.395522655316796 41.176842494253798
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.303301783867198 41.113491980800198
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.338813196454495 40.688803871642001
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.338813196454495 40.688803871642001
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.365417743303695 40.679881211651903
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.365417743303695 40.679881211651903
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.338813196454495 40.688803871642001
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.365417743303695 40.679881211651903
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.874229241436197 40.873991512733397
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.874229241436197 40.873991512733397
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.874229241436197 40.873991512733397
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.642350308248695 40.7704486087313
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.642350308248695 40.7704486087313
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.482785880514797 40.817077138130003
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.482785880514797 40.817077138130003
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.603185832171505 40.798718490330103
+RTTOPO warning: Ring Self-intersection at or near point -73.603185832171505 40.798718490330103
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.550311491388101 40.831571875472903
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.550311491388101 40.831571875472903
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.721919712553202 40.780859618607899
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.721919712553202 40.780859618607899
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.641281174603293 40.726335582900099
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.641281174603293 40.726335582900099
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.517055405996103 40.851095608341701
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.517055405996103 40.851095608341701
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.642350308248695 40.7704486087313
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.482785880514797 40.817077138130003
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.603185832171505 40.798718490330103
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.550311491388101 40.831571875472903
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.721919712553202 40.780859618607899
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.641281174603293 40.726335582900099
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.517055405996103 40.851095608341701
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.112500287380698 40.625825058605201
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.112500287380698 40.625825058605201
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.150834825921905 40.576884662911397
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.150834825921905 40.576884662911397
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.212144161470704 40.538201170720299
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.212144161470704 40.538201170720299
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.157991461596495 40.593981014752401
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -74.157991461596495 40.593981014752401
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.112500287380698 40.625825058605201
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.150834825921905 40.576884662911397
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.212144161470704 40.538201170720299
+"
+"2","GEOS warning: Ring Self-intersection at or near point -74.157991461596495 40.593981014752401
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.269777122468 40.899345421537099
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.269777122468 40.899345421537099
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.404024364285405 40.806003763222499
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.404024364285405 40.806003763222499
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.275717479367898 40.803478199297302
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.275717479367898 40.803478199297302
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.491133942736994 40.924450150351497
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.491133942736994 40.924450150351497
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.741745813308398 40.8952497796855
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.741745813308398 40.8952497796855
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.461764690858004 40.919464027713403
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.461764690858004 40.919464027713403
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.081136025503497 40.922237831286601
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.081136025503497 40.922237831286601
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.269777122468 40.899345421537099
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.404024364285405 40.806003763222499
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.275717479367898 40.803478199297302
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.491133942736994 40.924450150351497
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.741745813308398 40.8952497796855
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.461764690858004 40.919464027713403
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.081136025503497 40.922237831286601
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.682326527571306 41.302784897162901
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.682326527571306 41.302784897162901
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.779390450667705 41.222101172856398
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.779390450667705 41.222101172856398
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.525230808528207 41.255468410760798
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.525230808528207 41.255468410760798
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.623088867813607 41.263435592331902
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.623088867813607 41.263435592331902
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.776374941850094 41.034400058862701
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.776374941850094 41.034400058862701
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.584663155167902 41.266324203432603
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.584663155167902 41.266324203432603
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.828649141304894 41.330937578147598
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.828649141304894 41.330937578147598
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.825139463974494 41.190441499561203
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.825139463974494 41.190441499561203
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.682326527571306 41.302784897162901
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.779390450667705 41.222101172856398
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.525230808528207 41.255468410760798
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.623088867813607 41.263435592331902
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.776374941850094 41.034400058862701
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.584663155167902 41.266324203432603
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.828649141304894 41.330937578147598
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.825139463974494 41.190441499561203
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.285964419175798 41.764700579213198
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.285964419175798 41.764700579213198
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.678388242335501 41.991429281744502
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.678388242335501 41.991429281744502
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.646581112096399 41.348116185994698
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.646581112096399 41.348116185994698
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.500565208148302 41.985148959256399
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.500565208148302 41.985148959256399
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.739340993542797 41.795406113081199
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.739340993542797 41.795406113081199
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.692271728389699 41.985627719159602
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.692271728389699 41.985627719159602
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.559797336019898 41.9342342352491
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.559797336019898 41.9342342352491
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.304859757479093 41.644205177436199
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.304859757479093 41.644205177436199
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.043277679177706 41.437509097326803
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.043277679177706 41.437509097326803
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.969855706800601 41.979163118688199
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.969855706800601 41.979163118688199
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.574434330633096 41.915803940598899
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.574434330633096 41.915803940598899
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.257400137545204 41.875775312816501
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.257400137545204 41.875775312816501
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.753914111924004 42.021070273786201
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.753914111924004 42.021070273786201
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.554929911968401 41.716674792970899
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.554929911968401 41.716674792970899
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.834986176064206 41.594365173460702
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.834986176064206 41.594365173460702
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.102935179597495 41.721860720514599
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.102935179597495 41.721860720514599
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.136004272359699 41.567516596165603
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.136004272359699 41.567516596165603
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.951998981563094 41.854410251237397
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.951998981563094 41.854410251237397
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.281627474016901 41.710347958438398
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.281627474016901 41.710347958438398
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.532339114103195 41.926909570232901
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.532339114103195 41.926909570232901
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.155472375791206 41.673585680861102
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.155472375791206 41.673585680861102
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.878402186663195 41.768498736712203
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.878402186663195 41.768498736712203
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.203328170133702 41.570975632676401
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.203328170133702 41.570975632676401
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.487877419271001 41.039429070378098
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -73.487877419271001 41.039429070378098
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.9340664423177 41.8546638322834
+"
+"2","RTTOPO warning: Ring Self-intersection at or near point -72.9340664423177 41.8546638322834
+
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.285964419175798 41.764700579213198
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.678388242335501 41.991429281744502
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.646581112096399 41.348116185994698
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.500565208148302 41.985148959256399
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.739340993542797 41.795406113081199
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.692271728389699 41.985627719159602
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.559797336019898 41.9342342352491
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.304859757479093 41.644205177436199
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.043277679177706 41.437509097326803
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.969855706800601 41.979163118688199
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.574434330633096 41.915803940598899
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.257400137545204 41.875775312816501
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.753914111924004 42.021070273786201
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.554929911968401 41.716674792970899
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.834986176064206 41.594365173460702
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.102935179597495 41.721860720514599
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.136004272359699 41.567516596165603
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.951998981563094 41.854410251237397
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.281627474016901 41.710347958438398
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.532339114103195 41.926909570232901
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.155472375791206 41.673585680861102
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.878402186663195 41.768498736712203
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.203328170133702 41.570975632676401
+"
+"2","GEOS warning: Ring Self-intersection at or near point -73.487877419271001 41.039429070378098
+"
+"2","GEOS warning: Ring Self-intersection at or near point -72.9340664423177 41.8546638322834
+"
+"2","Warning 1: geometry column type for layer 'sapolygon' in 'sapolygon.shape' (MULTIPOLYGON) is not consistent with type in gpkg_geometry_columns (POLYGON)
+Warning 1: A geometry of type MULTIPOLYGON is inserted into layer sapolygon of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+"
+"1","$allimported
+"
+"1","[1]"
+"1"," TRUE"
+"1","
+"
+"1","
+"
+"1","$status
+"
+"1","[1]"
+"1"," TRUE"
+"1","
+"
+"1","
+"
+"1","$message
+"
+"1","[1]"
+"1"," ""SSURGO data import succeeded"""
+"1","
+"
+"1","
+"
+"1","$subfolders
+"
+"1","$subfolders[[1]]
+"
+"1","$subfolders[[1]]$childfoldername
+"
+"1","[1]"
+"1"," ""NJ003"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[1]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[1]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[1]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[1]]$areasymbols
+"
+"1","$subfolders[[1]]$areasymbols$NJ003
+"
+"1","$subfolders[[1]]$areasymbols$NJ003$areaname
+"
+"1","[1]"
+"1"," ""Bergen County, New Jersey"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[1]]$areasymbols$NJ003$fileversion
+"
+"1","[1]"
+"1"," ""09/03/2024 17:28:54"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[2]]
+"
+"1","$subfolders[[2]]$childfoldername
+"
+"1","[1]"
+"1"," ""NJ013"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[2]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[2]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[2]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[2]]$areasymbols
+"
+"1","$subfolders[[2]]$areasymbols$NJ013
+"
+"1","$subfolders[[2]]$areasymbols$NJ013$areaname
+"
+"1","[1]"
+"1"," ""Essex County, New Jersey"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[2]]$areasymbols$NJ013$fileversion
+"
+"1","[1]"
+"1"," ""09/03/2024 17:48:41"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[3]]
+"
+"1","$subfolders[[3]]$childfoldername
+"
+"1","[1]"
+"1"," ""NJ027"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[3]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 2"
+"1","
+"
+"1","
+"
+"1","$subfolders[[3]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[3]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[3]]$areasymbols
+"
+"1","$subfolders[[3]]$areasymbols$NJ027
+"
+"1","$subfolders[[3]]$areasymbols$NJ027$areaname
+"
+"1","[1]"
+"1"," ""Morris County, New Jersey"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[3]]$areasymbols$NJ027$fileversion
+"
+"1","[1]"
+"1"," ""09/03/2024 19:14:48"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[4]]
+"
+"1","$subfolders[[4]]$childfoldername
+"
+"1","[1]"
+"1"," ""NJ031"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[4]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[4]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[4]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[4]]$areasymbols
+"
+"1","$subfolders[[4]]$areasymbols$NJ031
+"
+"1","$subfolders[[4]]$areasymbols$NJ031$areaname
+"
+"1","[1]"
+"1"," ""Passaic County, New Jersey"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[4]]$areasymbols$NJ031$fileversion
+"
+"1","[1]"
+"1"," ""09/03/2024 20:05:22"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[5]]
+"
+"1","$subfolders[[5]]$childfoldername
+"
+"1","[1]"
+"1"," ""NJ039"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[5]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[5]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[5]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[5]]$areasymbols
+"
+"1","$subfolders[[5]]$areasymbols$NJ039
+"
+"1","$subfolders[[5]]$areasymbols$NJ039$areaname
+"
+"1","[1]"
+"1"," ""Union County, New Jersey"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[5]]$areasymbols$NJ039$fileversion
+"
+"1","[1]"
+"1"," ""09/04/2024 11:49:32"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[6]]
+"
+"1","$subfolders[[6]]$childfoldername
+"
+"1","[1]"
+"1"," ""NY005"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[6]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 2"
+"1","
+"
+"1","
+"
+"1","$subfolders[[6]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[6]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[6]]$areasymbols
+"
+"1","$subfolders[[6]]$areasymbols$NY005
+"
+"1","$subfolders[[6]]$areasymbols$NY005$areaname
+"
+"1","[1]"
+"1"," ""Bronx County, New York"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[6]]$areasymbols$NY005$fileversion
+"
+"1","[1]"
+"1"," ""08/25/2024 18:39:12"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[7]]
+"
+"1","$subfolders[[7]]$childfoldername
+"
+"1","[1]"
+"1"," ""NY047"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[7]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 2"
+"1","
+"
+"1","
+"
+"1","$subfolders[[7]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[7]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[7]]$areasymbols
+"
+"1","$subfolders[[7]]$areasymbols$NY047
+"
+"1","$subfolders[[7]]$areasymbols$NY047$areaname
+"
+"1","[1]"
+"1"," ""Kings County, New York"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[7]]$areasymbols$NY047$fileversion
+"
+"1","[1]"
+"1"," ""08/29/2024 15:36:34"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[8]]
+"
+"1","$subfolders[[8]]$childfoldername
+"
+"1","[1]"
+"1"," ""NY059"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[8]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[8]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[8]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[8]]$areasymbols
+"
+"1","$subfolders[[8]]$areasymbols$NY059
+"
+"1","$subfolders[[8]]$areasymbols$NY059$areaname
+"
+"1","[1]"
+"1"," ""Nassau County, New York"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[8]]$areasymbols$NY059$fileversion
+"
+"1","[1]"
+"1"," ""08/29/2024 15:36:34"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[9]]
+"
+"1","$subfolders[[9]]$childfoldername
+"
+"1","[1]"
+"1"," ""NY061"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[9]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[9]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[9]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[9]]$areasymbols
+"
+"1","$subfolders[[9]]$areasymbols$NY061
+"
+"1","$subfolders[[9]]$areasymbols$NY061$areaname
+"
+"1","[1]"
+"1"," ""New York County, New York"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[9]]$areasymbols$NY061$fileversion
+"
+"1","[1]"
+"1"," ""08/29/2024 16:49:10"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[10]]
+"
+"1","$subfolders[[10]]$childfoldername
+"
+"1","[1]"
+"1"," ""NY081"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[10]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 2"
+"1","
+"
+"1","
+"
+"1","$subfolders[[10]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[10]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[10]]$areasymbols
+"
+"1","$subfolders[[10]]$areasymbols$NY081
+"
+"1","$subfolders[[10]]$areasymbols$NY081$areaname
+"
+"1","[1]"
+"1"," ""Queens County, New York"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[10]]$areasymbols$NY081$fileversion
+"
+"1","[1]"
+"1"," ""08/29/2024 15:36:34"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[11]]
+"
+"1","$subfolders[[11]]$childfoldername
+"
+"1","[1]"
+"1"," ""NY085"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[11]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 2"
+"1","
+"
+"1","
+"
+"1","$subfolders[[11]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 0"
+"1","
+"
+"1","
+"
+"1","$subfolders[[11]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[11]]$areasymbols
+"
+"1","$subfolders[[11]]$areasymbols$NY085
+"
+"1","$subfolders[[11]]$areasymbols$NY085$areaname
+"
+"1","[1]"
+"1"," ""Richmond County, New York"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[11]]$areasymbols$NY085$fileversion
+"
+"1","[1]"
+"1"," ""08/29/2024 17:17:27"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[12]]
+"
+"1","$subfolders[[12]]$childfoldername
+"
+"1","[1]"
+"1"," ""NY103"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[12]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[12]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[12]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[12]]$areasymbols
+"
+"1","$subfolders[[12]]$areasymbols$NY103
+"
+"1","$subfolders[[12]]$areasymbols$NY103$areaname
+"
+"1","[1]"
+"1"," ""Suffolk County, New York"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[12]]$areasymbols$NY103$fileversion
+"
+"1","[1]"
+"1"," ""08/29/2024 18:27:17"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[13]]
+"
+"1","$subfolders[[13]]$childfoldername
+"
+"1","[1]"
+"1"," ""NY119"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[13]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[13]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 1"
+"1","
+"
+"1","
+"
+"1","$subfolders[[13]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[13]]$areasymbols
+"
+"1","$subfolders[[13]]$areasymbols$NY119
+"
+"1","$subfolders[[13]]$areasymbols$NY119$areaname
+"
+"1","[1]"
+"1"," ""Westchester County, New York"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[13]]$areasymbols$NY119$fileversion
+"
+"1","[1]"
+"1"," ""08/26/2024 13:24:13"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$subfolders[[14]]
+"
+"1","$subfolders[[14]]$childfoldername
+"
+"1","[1]"
+"1"," ""CT601"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[14]]$elapsedsecondstabularimport
+"
+"1","[1]"
+"1"," 8"
+"1","
+"
+"1","
+"
+"1","$subfolders[[14]]$elapsedsecondsspatialimport
+"
+"1","[1]"
+"1"," 6"
+"1","
+"
+"1","
+"
+"1","$subfolders[[14]]$errormessage
+"
+"1","[1]"
+"1"," """""
+"1","
+"
+"1","
+"
+"1","$subfolders[[14]]$areasymbols
+"
+"1","$subfolders[[14]]$areasymbols$CT601
+"
+"1","$subfolders[[14]]$areasymbols$CT601$areaname
+"
+"1","[1]"
+"1"," ""State of Connecticut, Western Part"""
+"1","
+"
+"1","
+"
+"1","$subfolders[[14]]$areasymbols$CT601$fileversion
+"
+"1","[1]"
+"1"," ""08/30/2024 21:17:51"""
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","$elapsedseconds
+"
+"1","[1]"
+"1"," 35"
+"1","
+"
+"1","
+"

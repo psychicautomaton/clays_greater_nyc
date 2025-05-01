@@ -1,0 +1,77 @@
+---
+title: "clays_map"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(mapboxapi)
+mb_access_token("pk.eyJ1IjoicHN5Y2hpY2F1dG9tYXRvbiIsImEiOiJjbWE0ZjJuaXUwNjZzMmxweXlzcDN5OGQ5In0.Yme9yPL4rt8OuuySLUOYqg", install = TRUE, overwrite = TRUE)
+library(leaflet)
+library(sf)
+library(leafgl)
+library(htmlwidgets)
+library(htmltools)
+```
+
+```{r}
+dbp <- "/Users/mxdwivedi/Documents/GIS/clays/db_gpkg/clays.gpkg"
+```
+
+```{r}
+clay_percs <- st_read(dbp,
+                      layer = "rating_Clay_DCD_AL") %>% 
+  select(musym, Clay_DCD_AL) %>%
+  distinct()
+
+musym <- st_read(dbp,
+                      layer = "mapunit")  %>% 
+  select(musym, muname, interpfocus) %>% distinct()
+
+mupoly <- st_read(dbp,
+                      layer = "mupolygon") %>%
+  select(musym, shape) %>% distinct()
+
+```
+```{r}
+df <- left_join(musym,
+                clay_percs,
+                by="musym") %>% 
+  distinct()
+
+df <- left_join(df,
+                mupoly,
+                by = "musym") %>%
+  distinct() %>%
+  filter(Clay_DCD_AL > 15)
+
+df <- sf::st_as_sf(df)
+
+df <- df %>%
+  mutate(centroids = st_centroid(shape))
+```
+
+```{r}
+pal <- colorNumeric(
+  palette = "magma",
+  domain = df$Clay_DCD_AL,
+  reverse = TRUE)
+```
+
+
+```{r}
+leaflet(df) %>%
+  addMapboxTiles(
+    style_id = "cma4f3hku005p01qw86dv8sca",
+    username = "psychicautomaton"
+  ) %>%
+  setView(
+    lng = -73.6577,
+    lat = 40.8822,
+    zoom = 9
+  ) %>%
+  addPolygons(color = pal(df$Clay_DCD_AL))# %>%
+ # addPopups(data = df$centroids,
+ #   popup = paste0(df$Clay_DCD_AL, "% Clay"))
+```
+

@@ -1,0 +1,195 @@
+"0","ssurgo_portal()
+"
+"2","Bottle v0.13.3 server starting up (using WSGIRefServer())...
+"
+"2","Listening on http://localhost:8083/
+Hit Ctrl-C to quit.
+
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:50] ""GET /startUp HTTP/1.1"" 303 0
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:50] ""GET /SSURGOPortalUI HTTP/1.1"" 200 123762
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /uswds/css/styles.css HTTP/1.1"" 200 704105
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /uswds/javascript/uswds-init.min.js HTTP/1.1"" 200 349
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /static/images/nrcs-color-lockup.svg HTTP/1.1"" 200 22333
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /static/images/refreshIcon.svg HTTP/1.1"" 200 647
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /static/images/databaseUploadGrayIcon.svg HTTP/1.1"" 200 3390
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /static/images/emptyDatabaseIcon.svg HTTP/1.1"" 200 4787
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /static/images/infoIcon.svg HTTP/1.1"" 200 469
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /static/jquery-3.6.0.min.js HTTP/1.1"" 200 89501
+"
+"2","Traceback (most recent call last):
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 995, in _handle
+    out = route.call(**args)
+          ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 2025, in wrapper
+    rv = callback(*a, **ka)
+         ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/Library/Application Support/org.R-project.R/R/SSURGOPortal/SSURGOPortal.pyz/dphost/webpage.py"", line 215, in get_font
+    with io.TextIOWrapper(dpzip.open('/resources/uswds/fonts/' + fontFolder + filename), encoding='utf-8') as templateResult:
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1564, in open
+    zinfo = self.getinfo(name)
+            ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1493, in getinfo
+    raise KeyError(
+KeyError: ""There is no item named '/resources/uswds/fonts/source-sans-prosourcesanspro-regular-webfont.woff2' in the archive""
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:51] ""GET /uswds/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2 HTTP/1.1"" 500 810
+"
+"2","Traceback (most recent call last):
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 995, in _handle
+    out = route.call(**args)
+          ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 2025, in wrapper
+    rv = callback(*a, **ka)
+         ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/Library/Application Support/org.R-project.R/R/SSURGOPortal/SSURGOPortal.pyz/dphost/webpage.py"", line 215, in get_font
+    with io.TextIOWrapper(dpzip.open('/resources/uswds/fonts/' + fontFolder + filename), encoding='utf-8') as templateResult:
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1564, in open
+    zinfo = self.getinfo(name)
+            ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1493, in getinfo
+    raise KeyError(
+KeyError: ""There is no item named '/resources/uswds/fonts/source-sans-prosourcesanspro-bold-webfont.woff2' in the archive""
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /uswds/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2 HTTP/1.1"" 500 807
+"
+"2","Traceback (most recent call last):
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 995, in _handle
+    out = route.call(**args)
+          ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 2025, in wrapper
+    rv = callback(*a, **ka)
+         ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/Library/Application Support/org.R-project.R/R/SSURGOPortal/SSURGOPortal.pyz/dphost/webpage.py"", line 215, in get_font
+    with io.TextIOWrapper(dpzip.open('/resources/uswds/fonts/' + fontFolder + filename), encoding='utf-8') as templateResult:
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1564, in open
+    zinfo = self.getinfo(name)
+            ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1493, in getinfo
+    raise KeyError(
+KeyError: ""There is no item named '/resources/uswds/fonts/source-sans-prosourcesanspro-italic-webfont.woff2' in the archive""
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /uswds/fonts/source-sans-pro/sourcesanspro-italic-webfont.woff2 HTTP/1.1"" 500 809
+"
+"2","Traceback (most recent call last):
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 995, in _handle
+    out = route.call(**args)
+          ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 2025, in wrapper
+    rv = callback(*a, **ka)
+         ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/Library/Application Support/org.R-project.R/R/SSURGOPortal/SSURGOPortal.pyz/dphost/webpage.py"", line 215, in get_font
+    with io.TextIOWrapper(dpzip.open('/resources/uswds/fonts/' + fontFolder + filename), encoding='utf-8') as templateResult:
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1564, in open
+    zinfo = self.getinfo(name)
+            ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1493, in getinfo
+    raise KeyError(
+KeyError: ""There is no item named '/resources/uswds/fonts/source-sans-prosourcesanspro-bolditalic-webfont.woff2' in the archive""
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /uswds/fonts/source-sans-pro/sourcesanspro-bolditalic-webfont.woff2 HTTP/1.1"" 500 813
+"
+"2","Traceback (most recent call last):
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 995, in _handle
+    out = route.call(**args)
+          ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/bottle.py"", line 2025, in wrapper
+    rv = callback(*a, **ka)
+         ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/Library/Application Support/org.R-project.R/R/SSURGOPortal/SSURGOPortal.pyz/dphost/webpage.py"", line 215, in get_font
+    with io.TextIOWrapper(dpzip.open('/resources/uswds/fonts/' + fontFolder + filename), encoding='utf-8') as templateResult:
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1564, in open
+    zinfo = self.getinfo(name)
+            ^^^^^^^^^^^^^^^^^^
+  File ""/Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/zipfile.py"", line 1493, in getinfo
+    raise KeyError(
+KeyError: ""There is no item named '/resources/uswds/fonts/merriweatherLatin-Merriweather-Regular.woff2' in the archive""
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /uswds/fonts/merriweather/Latin-Merriweather-Regular.woff2 HTTP/1.1"" 500 804
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/background-checkmark-tabs.svg HTTP/1.1"" 200 1307
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /uswds/img/usa-icons/add.svg HTTP/1.1"" 200 136
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /uswds/img/correct8.svg HTTP/1.1"" 200 600
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/popper.min.js HTTP/1.1"" 200 18593
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/bootstrap.min.js HTTP/1.1"" 200 59219
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/ssurgo_portal_scripts.js HTTP/1.1"" 200 193197
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /uswds/javascript/uswds.min.js HTTP/1.1"" 200 87805
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/closeIcon.svg HTTP/1.1"" 200 326
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/eject-fill.svg HTTP/1.1"" 200 339
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/caret-up-fill.svg HTTP/1.1"" 200 265
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/SSURGOLocationExample.svg HTTP/1.1"" 200 34228
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/arrow-left-circle.svg HTTP/1.1"" 200 370
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/changePathToEdit.svg HTTP/1.1"" 200 901
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/plusIcon.svg HTTP/1.1"" 200 936
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /uswds/img/usa-icons/unfold_more.svg HTTP/1.1"" 200 220
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/warningIcon.svg HTTP/1.1"" 200 1019
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/SSAsInDatabaseIcon.svg HTTP/1.1"" 200 6798
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""GET /static/images/DeleteSSAsFromDatabaseIcon.svg HTTP/1.1"" 200 6856
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""POST /serverStatus HTTP/1.1"" 200 17
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:52] ""POST /SSURGOPortalUI HTTP/1.1"" 200 529
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:53] ""GET /getVersion HTTP/1.1"" 200 9
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:53] ""GET /tlogger/info:SSURGO%20Portal%20is%20up%20to%20date HTTP/1.1"" 200 0
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:59] ""POST /fileExists HTTP/1.1"" 200 21
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:59] ""GET /static/images/searchIconBlackFill.svg HTTP/1.1"" 200 330
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:59] ""POST /SSURGOPortalUI HTTP/1.1"" 200 145
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:59] ""GET /static/images/sort_arrow.svg HTTP/1.1"" 200 223
+"
+"2","127.0.0.1 - - [01/May/2025 13:52:59] ""GET /uswds/img/usa-icons/navigate_next.svg HTTP/1.1"" 200 147
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:00] ""POST /fileExists HTTP/1.1"" 200 21
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:00] ""POST /SSURGOPortalUI HTTP/1.1"" 200 1720
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:00] ""POST /SSURGOPortalUI HTTP/1.1"" 200 1039221
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:02] ""POST /fileExists HTTP/1.1"" 200 23
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:02] ""GET /uswds/img/usa-icons/check_circle.svg HTTP/1.1"" 200 217
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:02] ""POST /SSURGOPortalUI HTTP/1.1"" 200 183
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:10] ""GET /uswds/img/usa-icons/remove.svg HTTP/1.1"" 200 118
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:13] ""POST /SSURGOPortalUI HTTP/1.1"" 200 17498
+"
+"2","127.0.0.1 - - [01/May/2025 13:53:55] ""POST /SSURGOPortalUI HTTP/1.1"" 200 236954
+"

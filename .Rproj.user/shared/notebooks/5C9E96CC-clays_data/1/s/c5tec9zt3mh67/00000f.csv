@@ -1,0 +1,28 @@
+"0","library(sys)"
+"0","Sys.setenv(R_SSURGOPORTAL_USE_VIRTUALENV = FALSE)"
+"0","Sys.getenv(""R_SSURGOPORTAL_USE_VIRTUALENV"")"
+"1","[1]"
+"1"," ""FALSE"""
+"1","
+"
+"0","library(SSURGOPortal)"
+"2","SSURGOPortal R Interface v0.0.6
+	Python: /usr/local/bin/python
+ SSURGO Portal: /Users/mxdwivedi/Library/Application Support/org.R-project.R/R/SSURGOPortal/SSURGOPortal.pyz
+"
+"0","library(tidyverse)"
+"0","library(reticulate)"
+"0","use_python(""/Users/mxdwivedi/.pyenv/versions/3.11.12/bin/python"","
+"0","           required = TRUE)"
+"2","Warning: Previous request to `use_python(""/opt/homebrew/bin/python3.11"", required = TRUE)` will be ignored. It is superseded by request to `use_python(""/Users/mxdwivedi/.pyenv/versions/3.11.12/bin/python"")"
+"0","py_config()"
+"1","python:         /Users/mxdwivedi/.pyenv/versions/3.11.12/bin/python
+libpython:      /Users/mxdwivedi/.pyenv/versions/3.11.12/lib/libpython3.11.dylib
+pythonhome:     /Users/mxdwivedi/.pyenv/versions/3.11.12:/Users/mxdwivedi/.pyenv/versions/3.11.12
+version:        3.11.12 (main, Apr 30 2025, 11:51:21) [Clang 16.0.0 (clang-1600.0.26.6)]
+numpy:          /Users/mxdwivedi/.pyenv/versions/3.11.12/lib/python3.11/site-packages/numpy
+numpy_version:  1.26.4
+
+NOTE: Python version was forced by use_python() function
+"
+"0","library(sf)"
