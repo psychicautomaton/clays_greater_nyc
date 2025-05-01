@@ -37,7 +37,7 @@ suppressPackageStartupMessages(library(htmltools))
 ```
 
 ```{r, results='hide'}
-dbp <- "/Users/mxdwivedi/Documents/GIS/clays/db_gpkg/clays.gpkg"
+dbp <- "/Users/mxdwivedi/Documents/GIS/clays/clays_greater_nyc/db_gpkg/clays.gpkg"
 ```
 
 ```{r, results='hide'}
