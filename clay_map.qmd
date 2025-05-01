@@ -5,6 +5,8 @@ author: "Uma Dwivedi (psychicautomaton)"
 format: 
   dashboard:
     theme: minty
+    nav-buttons: [github]
+    github: https://github.com/psychicautomaton/clays_greater_nyc
     grid:
       sidebar-width: 20px
       body-width: 1300px
